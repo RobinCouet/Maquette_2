@@ -1,0 +1,346 @@
+@font-face {
+    font-family: "Oswald";
+    src: url('misc/Oswald-Regular.ttf');
+}
+@font-face {
+    font-family: "Oswald-RegularItalic";
+    src: url('misc/Oswald-RegularItalic.ttf');
+}
+@font-face {
+    font-family: "DroidSans";
+    src: url('misc/DroidSans.ttf');
+}
+@font-face {
+    font-family: "DroidSerif-Italic";
+    src: url('misc/DroidSerif-Italic.ttf');
+}
+@font-face {
+    font-family: "DroidSerif-Regular";
+    src: url('misc/DroidSerif-Regular.ttf');
+}
+body {
+	font-family: "Oswald";
+	margin-top: 0px;
+	min-height: 100%;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+a:visited {
+	color: inherit;
+}
+.background {
+	margin-top: 0px;
+	margin: 0px auto;
+	background-image: url("misc/grille.png");
+	background-repeat: repeat; 
+	height: 180px;
+	width: 100%;
+}
+#header {
+	width: 940px;
+	height: 180px;
+	margin: 0px auto;
+}
+header {
+	width: 940px;
+	height: 180px;
+	display: flex;
+}
+#logo {
+	float: left;
+	margin-top: 40px;
+}
+#restaurant {
+	float: left;
+	width: 120px;
+	margin-top: 40px;
+    margin-right: 25px;
+    color: #7c7c7c;
+}
+#service {
+	float: left;
+	width: 92px;
+	margin-top: 40px;
+    margin-right: 25px;
+    color: #7c7c7c;
+}
+#activitie {
+	float: left;
+	width: 97px;
+	margin-top: 40px;
+    margin-right: 25px;
+    color: #7c7c7c;
+}
+#more {
+	float: left;
+	width: 113px;
+	margin-top: 40px;
+    color: #7c7c7c;
+}
+#hotel {
+	margin-left: 147px;
+	float: left;
+	width: 100px;
+	margin-top: 40px;
+    margin-right: 25px;
+    color: #7c7c7c;
+}
+li {
+	font-size: 10px;
+	font-family: "DroidSans";
+	margin-bottom: 10px;
+}
+ul {
+	padding-top: 0px;
+	padding-left: 0px;
+}
+.firstmenu {
+    padding-top: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+    list-style-type: none;
+    color: #7c7c7c;
+    margin-right: 25px;
+    margin-left: 10px;
+}
+.menupos {
+	padding-top: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+    list-style-type: none;
+    color: #7c7c7c;
+    margin-left: 10px;
+}
+h3 {
+	margin-top: 0px;
+	font-size: 16px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+#orange {
+	border-bottom: 5px solid #f76900;
+	margin-bottom: 10px;
+	width: 100px;
+}
+#yellow {
+	border-bottom: 5px solid #fcd04a;
+	margin-bottom: 10px;
+	width: 120px;
+}
+#green {
+	border-bottom: 5px solid #b9d482;
+	margin-bottom: 10px;
+	width: 92px;
+}
+#blue {
+	border-bottom: 5px solid #3d92c2;
+	margin-bottom: 10px;
+}
+#violet {
+	border-bottom: 5px solid #c078d0;
+	margin-bottom: 10px;
+}
+.border {
+	margin: 0px auto;
+	width: 100%;
+	margin-top: 10px;
+	border-bottom: 1px #f0f0f0 solid;
+	border-top: 1px #f0f0f0 solid;
+    margin-bottom: 10px;
+    clear: both;
+}
+iframe {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 640px; 
+	height: 360px;
+	border: 0;
+}
+#video {
+	max-width: 940px;
+	margin: 0px auto;
+	text-align: center;
+}
+.background2 {
+	font-size: 16px;
+	font-family: "DroidSerif-Italic";
+	color: #6f6f6f;
+	margin-top: 10px;
+	margin: 0px auto;
+	background-image: url("misc/grille.png");
+	background-repeat: repeat; 
+	height: 85px;
+	width: 100%;
+	text-align: center;
+	line-height: 80px;
+}
+#content {
+	margin: 0px auto;
+	width: 940px;
+	margin-top: 30px;
+	min-height: 380px;
+    margin-bottom: 40px;
+    display: flex;
+}
+#golf {
+	width: 220px;
+	min-height: 350px;
+	border: 1px solid #f0f0f0;
+	float: left;
+	padding-left: 10px;
+}
+h4 {
+	color: #ea7b2a;
+	margin-top: 15px;
+    margin-bottom: 5px;
+}
+.date{
+	font-family: "DroidSerif-Italic";
+	font-size: 10px;
+	color: #949794;
+	float: left;
+    margin-right: 78px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+.grey {
+	color: #777b7a;
+	font-size: x-small;
+	width: 180px;
+	margin-bottom: 0px;
+	margin-bottom: 10px;
+	font-family: "DroidSans";
+	line-height: 20px;
+}
+.greycomment {
+	color: #777b7a;
+	font-size: small;
+	width: 180px;
+	margin-bottom: 0px;
+	margin-bottom: 10px;
+	font-family: "DroidSans";
+    margin-top: 0px;
+	line-height: 20px;
+}
+.greylong {
+	color: #777b7a;
+	font-size: x-small;
+	width: 430px;
+    margin-top: 28px;
+	margin-bottom: 10px;
+	font-family: "DroidSans";
+	line-height: 20px;
+}
+.read {
+	font-family: "DroidSerif-Italic";
+	font-size: 20px;
+	color: #a6afb5;
+	font-size: 14px;
+	margin-top: 10px;
+    margin-bottom: 53px;
+}
+.readmore {
+	font-family: "DroidSerif-Italic";
+	font-size: 20px;
+	color: #a6afb5;
+	font-size: 14px;
+	margin-top: 10px;
+}
+#activities {
+	float: left;
+    margin-left: 20px;
+}
+#comment {
+	float: left;
+	margin-left: 20px;
+}
+.photo {
+	width: 450px;
+}
+.photoaccro {
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #f0f0f0;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+#contact {
+	background-image: url("misc/grille.png");
+	min-height: 215px;
+	width: 100%;
+	display: flex;
+}
+.element {
+	width: 980px;
+	margin: 0 auto;
+}
+.info {
+	min-height: 180px;
+	width: 160px;
+	padding-top: 25px;
+	margin-left: 10px;
+    margin-right: 70px;
+	float: left;
+}
+h5 {
+	margin-top: 0px;
+    color: #7a7a7a;
+    margin-bottom: 10px;
+}
+.icone {
+	float: left;
+}
+.texticone {
+	font-family: "DroidSerif-Regular";
+    margin-left: 25px;
+    font-size: 10px;
+    color: #7a7a7a;
+    margin-right: 10px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.mail {
+	font-family: "DroidSerif-Regular";
+    margin-left: 25px;
+    font-size: 10px;
+    color: #7a7a7a;
+    margin-right: 10px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+	text-decoration: underline;
+}
+.title {
+	color: #7c7c7c;
+	font-size: 14px;
+    margin-bottom: 5px;
+}
+.comm {
+	font-size: 8px;
+	font-family: "DroidSerif-Italic";
+	color: #7a7a7a;
+	text-decoration: underline;
+}
+footer {
+	width: 940px;
+	margin: 0px auto;
+}
+#copyright{
+	font-family: "DroidSans";
+	font-size: 10px;
+	color: #949794;
+	float: left;
+}
+.social {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#image {
+	width: 235px;
+	float: right;
+}
